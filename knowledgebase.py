@@ -87,73 +87,61 @@ bollywood = [
         "title": "dilwale dulhania le jayenge",
         "genres": ["romance", "drama"],
         "cast": ["shah rukh khan", "kajol"],
-        "songs": ["Tujhe Dekha To", "Mere Khwabon Mein"]
     },
     {
         "title": "3 idiots",
         "genres": ["comedy", "drama"],
         "cast": ["aamir khan", "kareena kapoor", "r. madhavan"],
-        "songs": ["All Izz Well", "Zoobi Doobi"]
     },
     {
         "title": "lagaan",
         "genres": ["drama", "sport"],
         "cast": ["aamir khan", "gracy singh"],
-        "songs": ["Mitwa", "O Rey Chhori"]
     },
     {
         "title": "andhadhun",
         "genres": ["crime", "thriller"],
         "cast": ["ayushmann khurrana", "tabu", "radhika apte"],
-        "songs": ["Naina Da Kya Kasoor", "Aap Se Milkar"]
     },
     {
         "title": "dangal",
         "genres": ["biography", "drama", "sport"],
         "cast": ["aamir khan", "sakshi tanwar"],
-        "songs": ["Dhaakad", "Haanikaarak Bapu"]
     },
     {
         "title": "chak de! india",
         "genres": ["drama", "sport"],
         "cast": ["shah rukh khan", "sagarika ghatge"],
-        "songs": ["Chak De! India", "Badal Pe Paon Hain"]
     },
     {
         "title": "kabhi khushi kabhie gham",
         "genres": ["drama", "romance"],
         "cast": ["shah rukh khan", "kajol", "amitabh bachchan"],
-        "songs": ["Suraj Hua Maddham", "Bole Chudiyan"]
     },
     {
         "title": "queen",
         "genres": ["comedy", "drama"],
         "cast": ["kangana ranaut"],
-        "songs": ["London Thumakda", "Hungama Ho Gaya"]
     },
     {
         "title": "gully boy",
         "genres": ["drama", "musical"],
         "cast": ["ranveer singh", "alia bhatt"],
-        "songs": ["Apna Time Aayega", "Mere Gully Mein"]
     },
     {
         "title": "padmaavat",
         "genres": ["drama", "history"],
         "cast": ["deepika padukone", "ranveer singh", "shahid kapoor"],
-        "songs": ["Ghoomar", "Khalibali"]
     },
     {
         "title": "bajrangi bhaijaan",
         "genres": ["comedy", "drama"],
         "cast": ["salman khan", "kareena kapoor"],
-        "songs": ["Bhar Do Jholi Meri", "Selfie Le Le Re"]
     },
     {
         "title": "dabangg",
         "genres": ["action", "comedy", "drama"],
         "cast": ["salman khan", "sonakshi sinha"],
-        "songs": ["Tere Mast Mast Do Nain", "Munni Badnaam Hui"]
     }
 ]
 
@@ -165,14 +153,14 @@ animes = [
         "cast": ["ryunosuke kamiki", "mone kamishiraishi"]
     },
     {
-        "title": "spirited away",
-        "genres": ["adventure", "fantasy"],
-        "cast": ["rumi hiiragi", "miyu irino"]
-    },
-    {
         "title": "attack on titan",
         "genres": ["action", "drama", "fantasy"],
         "cast": ["yuki kaji", "yui ishikawa"]
+    },
+    {
+        "title": "spirited away",
+        "genres": ["adventure", "fantasy"],
+        "cast": ["rumi hiiragi", "miyu irino"]
     },
     {
         "title": "one punch man",

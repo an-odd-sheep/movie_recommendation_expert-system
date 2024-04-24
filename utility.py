@@ -48,6 +48,7 @@ def spelling_checker_title(knowledgebase, word_to_check):
 
 def list_of_genre(knowledgebase):
     main_list = []
+
     for movie in knowledgebase:
         for item in movie["genres"]:
             if item not in main_list:
@@ -58,6 +59,7 @@ def list_of_genre(knowledgebase):
 
 def list_of_cast(knowledgebase):
     main_list = []
+
     for movie in knowledgebase:
         for item in movie["cast"]:
             if item not in main_list:
@@ -67,7 +69,9 @@ def list_of_cast(knowledgebase):
     print(f"LIST OF CAST : {main_list}")
 
 def list_of_movies(knowledgebase):
+
     main_list = [movie["title"] for movie in knowledgebase]
+    
     print(f"LIST OF MOVIES : {main_list}")
 
 def update_knowledgebase(knowledgebase, movie_title):

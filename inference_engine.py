@@ -1,8 +1,6 @@
 # INFERENCE ENGINE WITH LEARNING MODULE
 from utility import spelling_checker_genre_cast, spelling_checker_title, convert_into_lower
 
-
-
 def recommend_by_genre(knowledegebase, preferred_genres, sm):
     if not preferred_genres:
         print("No preferred genres provided. Cannot make recommendations.")
@@ -42,6 +40,7 @@ def recommend_by_cast(knowledegebase, preferred_cast):
         return
   
     recommendations = [movie["title"] for movie in knowledegebase if any(actor in preferred_cast for actor in movie["cast"])]
+
     if recommendations:
         print(f"\nRecommended movies based on your preferred cast {preferred_cast}:")
         for rec in recommendations:
@@ -65,7 +64,9 @@ def recommend_by_genre_and_cast(knowledegebase, preferred_genres, preferred_cast
         print("No movies found based on the preferred genre and cast.")
         return
 
-    recommendations = [movie["title"] for movie in knowledegebase if all(genre in preferred_genres for genre in movie["genres"]) and any(actor in preferred_cast for actor in movie["cast"])]
+    recommendations = [movie["title"] for movie in knowledegebase if 
+                       all(genre in preferred_genres for genre in movie["genres"]) and any(actor in preferred_cast for actor in movie["cast"])]
+    
     if recommendations:
         print(f"\nRecommended movies similar to your preferred cast {preferred_cast} in your preferred genre {preferred_genres} :")
         for rec in recommendations:
